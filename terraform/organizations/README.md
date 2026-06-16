@@ -40,15 +40,15 @@ AWS Organization
 
 ### Organizational Structure
 
-![AWS Organization](screenshots/aws-organization-structure.png)
+![AWS Organization](screenshots/01-organizations-hierarchy.png)
 
 ### Terraform Validation
 
-![Terraform Plan](screenshots/terraform-no-changes.png)
+![Terraform Plan](screenshots/02-terraform-clean-plan.png)
 
 ### Terraform State
 
-![Terraform State](screenshots/terraform-state-backup.png)
+![Terraform State](screenshots/03-terraform-state-list.png)
 
 ## Terraform Commands
 
