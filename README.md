@@ -70,7 +70,7 @@ Current State:
 - Terraform state reconciled
 - Infrastructure managed through Terraform
 
-Planned Next Steps:
+🚧 Phase 2 – Governance & Security:
 - SCPs
 - CloudTrail
 - AWS Config
