@@ -32,15 +32,3 @@ resource "aws_organizations_organizational_unit" "workloads" {
   parent_id = aws_organizations_organization.main.roots[0].id
 }
 
-resource "aws_organizations_account" "sandbox" {
-  name      = "sandbox-account"
-  email     = "wilf.ballo+sandbox@hotmail.co.uk"
-  parent_id = aws_organizations_organizational_unit.sandbox.id
-
-  role_name = "OrganizationAccountAccessRole"
-
-  tags = {
-    Environment = "sandbox"
-    Project     = "aws-secure-landing-zone"
-  }
-}
