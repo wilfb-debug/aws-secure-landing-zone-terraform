@@ -70,14 +70,34 @@ Current State:
 - Terraform state reconciled
 - Infrastructure managed through Terraform
 
-🚧 Phase 2 – Governance & Security:
+🚧 Phase 2 – Enterprise Landing Zone Expansion
+
+Governance & Security
 - SCPs
 - CloudTrail
 - AWS Config
 - GuardDuty
 - Security Account
-- Sandbox Account
-- CI/CD Pipeline
+
+Migration
+- AWS MGN
+- AWS DMS
+- Migration Hub
+- Migration Runbook
+
+FinOps
+- AWS Budgets
+- Cost Explorer
+- Cost Allocation Tags
+- Cost Dashboards
+
+Operations
+- CloudWatch Monitoring
+- SNS Alerting
+
+Automation
+- GitHub Actions
+- Terraform CI/CD
 
 ## Repository Structure
 
