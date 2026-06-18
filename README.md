@@ -1,4 +1,4 @@
-# AWS Secure Landing Zone with Terraform
+# AWS Secure Landing Zone with Terraform + Migration + FinOps Platform
 
 ## Overview
 
