@@ -52,6 +52,12 @@ AWS Organization
 
 ### Service Control Policies (SCPs)
 
+#### SCP Policies Created
+
+![SCP Policies Created](screenshots/05-scp-policies-created.png)
+
+#### SCPs Attached to Sandbox OU
+
 ![SCPs Attached to Sandbox](screenshots/05-scps-attached-to-sandbox.png)
 
 ## Terraform Commands
