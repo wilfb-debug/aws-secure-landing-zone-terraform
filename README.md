@@ -50,6 +50,10 @@ AWS Organization
 
 ![Terraform State](screenshots/03-terraform-state-list.png)
 
+### Service Control Policies (SCPs)
+
+![SCPs Attached to Sandbox](screenshots/05-scps-attached-to-sandbox.png)
+
 ## Terraform Commands
 
 ```bash
