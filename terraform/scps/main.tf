@@ -22,7 +22,7 @@ resource "aws_organizations_policy" "deny_leave_org" {
 
 resource "aws_organizations_policy_attachment" "deny_leave_org_to_sandbox" {
   policy_id = aws_organizations_policy.deny_leave_org.id
-  target_id = "ou-adtv-j1z2kcwv"
+  target_id = "ou-24vl-ui7gvyic"
 }
 
 resource "aws_organizations_policy" "deny_disable_cloudtrail" {
@@ -48,7 +48,7 @@ resource "aws_organizations_policy" "deny_disable_cloudtrail" {
 
 resource "aws_organizations_policy_attachment" "deny_disable_cloudtrail_to_sandbox" {
   policy_id = aws_organizations_policy.deny_disable_cloudtrail.id
-  target_id = "ou-adtv-j1z2kcwv"
+  target_id = "ou-24vl-ui7gvyic"
 }
 
 resource "aws_organizations_policy" "restrict_regions" {
@@ -85,5 +85,5 @@ resource "aws_organizations_policy" "restrict_regions" {
 
 resource "aws_organizations_policy_attachment" "restrict_regions_to_sandbox" {
   policy_id = aws_organizations_policy.restrict_regions.id
-  target_id = "ou-adtv-j1z2kcwv"
+  target_id = "ou-24vl-ui7gvyic"
 }
