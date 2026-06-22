@@ -9,10 +9,50 @@ The landing zone creates a scalable organizational structure that separates work
 ## Architecture
 
 AWS Organization
-├── Security OU
-├── Infrastructure OU
-├── Sandbox OU
-└── Workloads OU
+│
+├── Management Account
+│
+└── Sandbox OU
+      │
+      └── Member Account
+
+CloudTrail (Org Trail)
+        │
+        ▼
+   S3 Log Bucket
+
+GuardDuty
+        │
+        ▼
+   Security Findings
+
+Security Hub
+        │
+        ▼
+ Consolidated Findings
+
+Inspector
+        │
+        ▼
+ Vulnerability Findings
+
+Terraform
+        │
+        ├── Organizations
+        ├── SCPs
+        ├── Logging
+        └── GuardDuty
+
+## Business Value
+
+This landing zone provides:
+
+- Centralized governance
+- Organization-wide audit logging
+- Threat detection
+- Security posture management
+- Terraform-managed infrastructure
+- Scalable multi-account AWS foundation
 
 ## Technologies Used
 
@@ -24,6 +64,19 @@ AWS Organization
 - AWS Config (planned)
 - AWS CloudTrail (planned)
 - AWS GuardDuty (planned)
+
+## Skills Demonstrated
+
+- AWS Organizations
+- Service Control Policies (SCPs)
+- CloudTrail
+- GuardDuty
+- Security Hub
+- Amazon Inspector
+- Terraform
+- Infrastructure as Code
+- AWS Security Governance
+- Multi-Account Strategy
 
 ## Features Implemented
 
@@ -131,6 +184,12 @@ Operations
 Automation
 - GitHub Actions
 - Terraform CI/CD
+
+Estimated Monthly Cost
+
+This project was built using AWS Free Tier and low-cost services.
+
+All resources can be destroyed with Terraform when no longer required.
 
 ## Repository Structure
 
