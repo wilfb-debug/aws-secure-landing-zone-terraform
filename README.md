@@ -36,19 +36,42 @@ AWS Organization
 - Infrastructure import and reconciliation
 - Git version control
 
+
 ## Evidence
 
-### Organizational Structure
+### AWS Organizations
 
-![AWS Organization](screenshots/01-organizations-hierarchy.png)
+![Organizations Hierarchy](screenshots/04-aws-organizations-hierarchy.png)
 
-### Terraform Validation
+### Service Control Policies (SCPs)
 
-![Terraform Plan](screenshots/02-terraform-clean-plan.png)
+![SCP Policies Created](screenshots/05-scp-policies-created.png)
 
-### Terraform State
+![SCPs Attached to Sandbox OU](screenshots/05-scps-attached-to-sandbox.png)
 
-![Terraform State](screenshots/03-terraform-state-list.png)
+### Organization CloudTrail
+
+![Organization Trail Deployed](screenshots/06-cloudtrail-org-trail-deployed.png)
+
+![CloudTrail Log Files](screenshots/06-cloudtrail-log-files.png)
+
+### GuardDuty
+
+![GuardDuty Enabled](screenshots/06-guardduty-enabled.png)
+
+![GuardDuty Sample Findings](screenshots/06-guardduty-sample-findings.png)
+
+### Security Hub
+
+![Security Hub Findings](screenshots/security-hub-findings.png)
+
+![Root MFA Finding](screenshots/security-hub-critical-finding-root-mfa.png)
+
+![GuardDuty Integration](screenshots/security-hub-guardduty-integration.png)
+
+### Amazon Inspector
+
+![Inspector Findings](screenshots/08-inspector-findings.png)
 
 ### Service Control Policies (SCPs)
 

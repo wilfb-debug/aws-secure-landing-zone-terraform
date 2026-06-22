@@ -3,7 +3,7 @@ data "aws_organizations_organization" "org" {}
 data "aws_region" "current" {}
 
 resource "aws_s3_bucket" "cloudtrail_logs" {
-  bucket = "wilfred-org-cloudtrail-logs-205966172478"
+  bucket = "wilfred-org-cloudtrail-logs-905221885643"
 }
 
 resource "aws_s3_bucket_versioning" "cloudtrail_logs" {
